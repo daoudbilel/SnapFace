@@ -1,0 +1,13 @@
+.search {
+  display: flex;
+  justify-content: center;
+  input {
+    height: 30px;
+    width: 300px;
+    border-radius: 3px;
+    border: transparent 1px;
+    padding-left: 8px;
+    outline: none;
+    box-shadow: #e9e8e4 0 0 6px 3px;
+  }
+}

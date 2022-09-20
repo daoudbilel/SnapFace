@@ -1,0 +1,8 @@
+<div class="search">
+  <input type="search" [(ngModel)]="searchText"  placeholder="Rechercher par Titre ">
+</div>
+<app-face-snap *ngFor="let faceSnap of faceSnaps$ | async | searchFilter:searchText:'title'"
+               [faceSnap]="faceSnap"></app-face-snap>
+
+
+
